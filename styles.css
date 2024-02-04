@@ -1,0 +1,80 @@
+/* Created by Tivotal */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(214, 214, 214);
+}
+
+.wrapper .row {
+  width: 100%;
+  height: 60px;
+  margin: 10px 0 0 0;
+}
+
+.wrapper .row button {
+  width: 55px;
+  height: 55px;
+  background: rgb(214, 214, 214);
+  outline: none;
+  border: none;
+  box-shadow: 5px 5px 10px #474343, -5px -5px 10px #fff;
+  border-radius: 20%;
+  font-size: 18px;
+  color: #000;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.wrapper .row button:active {
+  box-shadow: 1px 1px 2px #fff8f8, -1px -1px 2px #474343;
+}
+
+.row button.backspace {
+  width: 115px;
+  border-radius: 10px;
+}
+
+.row button.tab {
+  width: 85px;
+  border-radius: 10px;
+}
+
+.row button.slash {
+  width: 85px;
+  border-radius: 10px;
+}
+
+.row button.caps {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.row button.enter {
+  width: 135px;
+  border-radius: 10px;
+}
+
+.row button.shift {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.wrapper .row:nth-child(5) button {
+  width: 70px;
+  border-radius: 10px;
+}
+
+.wrapper .row button.space {
+  width: 398px;
+  border-radius: 10px;
+}
